@@ -1,0 +1,20 @@
+﻿To create te Service:
+
+	Publish to C:\inetpub\services\WindowsServiceApiDemo\App\netcoreapp3.1
+	Run cmd as Administrator:
+
+	sc create WindowsServiceApiDemo binpath= C:\inetpub\services\WindowsServiceApiDemo\App\netcoreapp3.1\WindowsServiceApiDemo.exe start= auto DisplayName= "Windows Service Api Demo"
+	sc description WindowsServiceApiDemo "This is a Windows Service Api Demo, done in dotnet core 3.1"
+
+Additional options:
+
+	sc start WindowsServiceApiDemo
+	sc stop WindowsServiceApiDemo
+	sc delete WindowsServiceApiDemo
+
+Or open services.msc find 'Windows Service Api Demo' and start / stop from there
+
+To test the service:
+
+	Open a browser in http://localhost:5000/home
+	Open a browser in http://localhost:5000/command/some_word_here
