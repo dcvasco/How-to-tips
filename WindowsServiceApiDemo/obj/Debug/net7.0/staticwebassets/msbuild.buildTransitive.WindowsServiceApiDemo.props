@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\WindowsServiceApiDemo.props" />
+</Project>

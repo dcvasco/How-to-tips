@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "J9y0rQvXJbMEUrNdqUfeZiP9hrRy5MkUNFNASBsm1uE=",
+  "Source": "WindowsServiceApiDemo",
+  "BasePath": "_content/WindowsServiceApiDemo",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

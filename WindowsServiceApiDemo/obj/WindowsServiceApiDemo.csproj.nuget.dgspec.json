@@ -1,37 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dcvas.LENOVODV\\source\\repos\\WindowsServiceApiDemo\\WindowsServiceApiDemo\\WindowsServiceApiDemo.csproj": {}
+    "C:\\Users\\kiebo\\OneDrive\\Documents\\GitHub\\How-to-tips\\WindowsServiceApiDemo\\WindowsServiceApiDemo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dcvas.LENOVODV\\source\\repos\\WindowsServiceApiDemo\\WindowsServiceApiDemo\\WindowsServiceApiDemo.csproj": {
+    "C:\\Users\\kiebo\\OneDrive\\Documents\\GitHub\\How-to-tips\\WindowsServiceApiDemo\\WindowsServiceApiDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dcvas.LENOVODV\\source\\repos\\WindowsServiceApiDemo\\WindowsServiceApiDemo\\WindowsServiceApiDemo.csproj",
+        "projectUniqueName": "C:\\Users\\kiebo\\OneDrive\\Documents\\GitHub\\How-to-tips\\WindowsServiceApiDemo\\WindowsServiceApiDemo.csproj",
         "projectName": "WindowsServiceApiDemo",
-        "projectPath": "C:\\Users\\dcvas.LENOVODV\\source\\repos\\WindowsServiceApiDemo\\WindowsServiceApiDemo\\WindowsServiceApiDemo.csproj",
-        "packagesPath": "C:\\Users\\dcvas.LENOVODV\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dcvas.LENOVODV\\source\\repos\\WindowsServiceApiDemo\\WindowsServiceApiDemo\\obj\\",
+        "projectPath": "C:\\Users\\kiebo\\OneDrive\\Documents\\GitHub\\How-to-tips\\WindowsServiceApiDemo\\WindowsServiceApiDemo.csproj",
+        "packagesPath": "C:\\Users\\kiebo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kiebo\\OneDrive\\Documents\\GitHub\\How-to-tips\\WindowsServiceApiDemo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\dcvas.LENOVODV\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\kiebo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -42,8 +41,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "Microsoft.AspNetCore.Hosting.WindowsServices": {
               "target": "Package",
@@ -64,7 +63,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -76,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
